@@ -1,0 +1,17 @@
+{
+  "build": {
+    "command": "npm run build",
+    "cwd": ".",
+    "root": "dist"
+  },
+  "env": {
+    "production": {
+      "routes": [
+        {
+          "pattern": "/*",
+          "zone_id": ""
+        }
+      ]
+    }
+  }
+}
