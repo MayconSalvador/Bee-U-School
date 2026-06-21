@@ -79,7 +79,7 @@ const KidsHero = () => {
             </div>
 
             {/* Floating badges */}
-            <div className="absolute -top-6 -right-6 bg-background rounded-2xl shadow-xl px-4 py-3 flex items-center gap-2 animate-float">
+            <div className="absolute -top-4 -right-2 sm:-right-6 bg-background rounded-2xl shadow-xl px-4 py-3 flex items-center gap-2 animate-float">
               <div className="w-10 h-10 rounded-full bg-gold flex items-center justify-center text-xl">
                 🎉
               </div>
@@ -89,12 +89,12 @@ const KidsHero = () => {
               </div>
             </div>
 
-            <div className="absolute -bottom-6 -left-6 bg-background rounded-2xl shadow-xl px-4 py-3 animate-bounce-slow">
+            <div className="absolute -bottom-4 -left-2 sm:-left-6 bg-background rounded-2xl shadow-xl px-4 py-3 animate-bounce-slow">
               <p className="text-[10px] text-muted-foreground font-medium">Idade ideal</p>
               <p className="text-base font-black text-navy">6 a 14 anos</p>
             </div>
 
-            <div className="absolute top-1/2 -right-10 bg-navy text-primary-foreground rounded-2xl shadow-xl px-4 py-3 animate-float">
+            <div className="absolute top-1/2 -right-4 sm:-right-10 bg-navy text-primary-foreground rounded-2xl shadow-xl px-4 py-3 animate-float">
               <p className="text-3xl font-black text-gold leading-none">9/10</p>
               <p className="text-[10px] mt-1 leading-tight max-w-[100px]">
                 vagas pedem inglês

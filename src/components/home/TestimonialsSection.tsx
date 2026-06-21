@@ -24,12 +24,12 @@ const testimonials = [
 
 const TestimonialsSection = () => {
   return (
-    <section className="w-full bg-light-blue py-[80px] px-[160px]">
+    <section className="w-full bg-light-blue py-[60px] md:py-[80px] px-6 md:px-[80px] lg:px-[160px]">
       <div className="text-center mb-12">
         <span className="inline-block border border-border rounded-full px-4 py-1 text-sm text-muted-foreground mb-4">
           Historias Reais
         </span>
-        <h2 className="text-[40px] font-bold text-foreground leading-tight">
+        <h2 className="text-[32px] md:text-[40px] font-bold text-foreground leading-tight">
           Não ouça apenas a gente.
           <br />
           Veja quem já{" "}
@@ -37,7 +37,7 @@ const TestimonialsSection = () => {
         </h2>
       </div>
 
-      <div className="grid grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {testimonials.map((t) => (
           <div
             key={t.name}
