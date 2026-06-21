@@ -1,4 +1,5 @@
 import { ArrowRight, Star, TrendingUp } from "lucide-react";
+import { WHATSAPP_URL } from "@/config/contact";
 
 const Hero = () => {
   return (
@@ -19,12 +20,12 @@ const Hero = () => {
         </p>
 
         <div className="flex items-center gap-4 mt-10">
-          <button className="bg-navy text-primary-foreground font-semibold px-8 py-4 rounded-lg flex items-center gap-2 hover:bg-navy-dark transition-colors">
+          <a href={WHATSAPP_URL} className="bg-navy text-primary-foreground font-semibold px-8 py-4 rounded-lg flex items-center gap-2 hover:bg-navy-dark transition-colors">
             Conheça a plataforma <ArrowRight className="w-5 h-5" />
-          </button>
-          <button className="border-2 border-navy text-navy font-semibold px-8 py-4 rounded-lg flex items-center gap-2 hover:bg-secondary transition-colors">
+          </a>
+          <a href={WHATSAPP_URL} className="border-2 border-navy text-navy font-semibold px-8 py-4 rounded-lg flex items-center gap-2 hover:bg-secondary transition-colors">
             Fale com um professor <ArrowRight className="w-5 h-5" />
-          </button>
+          </a>
         </div>
       </div>
 

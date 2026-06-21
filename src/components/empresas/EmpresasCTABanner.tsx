@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import { WHATSAPP_URL } from "@/config/contact";
 
 const EmpresasCTABanner = () => {
   return (
@@ -7,12 +8,15 @@ const EmpresasCTABanner = () => {
         <h3 className="text-primary-foreground text-[22px] md:text-[26px] font-bold leading-snug max-w-md">
           O Programa de idioma mais funcional para formar equipes fluentes em inglês
         </h3>
-        <button className="bg-background text-navy font-semibold px-6 py-3 rounded-full flex items-center gap-2 hover:bg-secondary transition-colors text-sm">
+        <a
+          href={WHATSAPP_URL}
+          className="bg-background text-navy font-semibold px-6 py-3 rounded-full flex items-center gap-2 hover:bg-secondary transition-colors text-sm"
+        >
           Quero conhecer
           <span className="w-6 h-6 rounded-full bg-navy flex items-center justify-center">
             <ArrowRight className="w-3.5 h-3.5 text-primary-foreground" />
           </span>
-        </button>
+        </a>
       </div>
     </section>
   );

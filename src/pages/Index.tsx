@@ -4,7 +4,6 @@ import FeaturesCards from "@/components/FeaturesCards";
 import EssenceSection from "@/components/EssenceSection";
 import StatsSection from "@/components/StatsSection";
 import AboutSection from "@/components/AboutSection";
-import ProfessorsSection from "@/components/ProfessorsSection";
 import CTABanner from "@/components/CTABanner";
 import Footer from "@/components/Footer";
 
@@ -17,7 +16,6 @@ const Index = () => {
       <EssenceSection />
       <StatsSection />
       <AboutSection />
-      <ProfessorsSection />
       <CTABanner />
       <Footer />
     </div>

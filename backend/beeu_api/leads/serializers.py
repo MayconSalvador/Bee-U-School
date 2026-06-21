@@ -4,7 +4,7 @@ Django REST Framework Serializers for Leads
 
 from rest_framework import serializers
 from .models import Lead
-from beeu_api.shared.utils import FieldValidators, AgeRanges
+from beeu_api.shared.utils import FieldValidators
 from beeu_api.shared.exceptions import (
     InvalidPhoneNumberException,
     InvalidEmailException,
@@ -94,7 +94,7 @@ class LeadSerializer(serializers.ModelSerializer):
 class LeadListSerializer(serializers.ModelSerializer):
     """Simplified serializer for list views"""
 
-    full_name = serializers.CharField(source='get_full_name', read_only=True)
+    full_name = serializers.CharField(read_only=True)
     status_display = serializers.CharField(source='get_status_display', read_only=True)
 
     class Meta:

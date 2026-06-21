@@ -1,4 +1,5 @@
 import { ArrowRight, Sparkles, Star } from "lucide-react";
+import { WHATSAPP_URL } from "@/config/contact";
 
 const KidsCTABanner = () => {
   return (
@@ -29,12 +30,12 @@ const KidsCTABanner = () => {
               <p className="text-gold/80 text-xs font-bold uppercase tracking-wider">A partir de</p>
               <p className="text-gold font-black text-4xl md:text-5xl">R$ 149<span className="text-lg">/mês</span></p>
             </div>
-            <button
-              onClick={() => document.getElementById("form-section")?.scrollIntoView({ behavior: "smooth" })}
+            <a
+              href={WHATSAPP_URL}
               className="bg-gold text-navy font-black px-8 py-4 rounded-full flex items-center gap-2 hover:bg-gold-light hover:scale-105 transition-all text-sm shadow-xl"
             >
               Quero a Aula Grátis <ArrowRight className="w-5 h-5" />
-            </button>
+            </a>
           </div>
         </div>
       </div>

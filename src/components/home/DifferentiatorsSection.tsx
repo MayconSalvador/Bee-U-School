@@ -14,8 +14,8 @@ const cards = [
     icon: Users,
     title: "Professores Especializados",
     description:
-      "Nossos professores são especialistas em conversação profissional. Entendem sotaque, medo de falar, confiança. Cada aula é adaptada ao SEU progresso e objetivos reais.",
-    cta: "Especialistas em conversação",
+      "Nossos professores sao especializados em contruçao fonetica e linguistica para um novo idioma.Cada aula é adaptada ao seu progresso e objetivos reais.",
+    cta: "Especialistas em fonética",
   },
   {
     tag: "Pessoas Reais",
@@ -47,7 +47,7 @@ const DifferentiatorsSection = () => {
           <em className="italic">Funciona Melhor</em>
         </h2>
         <p className="mt-4 text-primary-foreground/70 text-base max-w-[600px] mx-auto">
-          Combinamos especialização em conversação, professores reais e comunidade de falantes para criar o método mais eficiente do mercado.
+          Combinamos especialização em fonética e conversação, professores reais e comunidade de falantes para criar o método mais eficiente do mercado.
         </p>
       </div>
 

@@ -1,4 +1,5 @@
 import { ArrowRight, Sparkles, Star, Heart } from "lucide-react";
+import { WHATSAPP_URL } from "@/config/contact";
 import kidsHero from "@/assets/kids-hero.jpg";
 
 const KidsHero = () => {
@@ -33,12 +34,12 @@ const KidsHero = () => {
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mt-10">
-            <button
-              onClick={() => document.getElementById("form-section")?.scrollIntoView({ behavior: "smooth" })}
+            <a
+              href={WHATSAPP_URL}
               className="bg-navy text-primary-foreground font-bold px-8 py-4 rounded-full flex items-center gap-2 hover:bg-navy-dark transition-all hover:scale-105 shadow-lg shadow-navy/20 text-sm"
             >
               Aula Experimental Grátis <ArrowRight className="w-5 h-5" />
-            </button>
+            </a>
             <button className="bg-gold text-navy font-bold px-6 py-4 rounded-full hover:bg-gold-light transition-all hover:scale-105 text-sm shadow-md">
               Ver Metodologia
             </button>

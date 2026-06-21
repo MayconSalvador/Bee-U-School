@@ -6,6 +6,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { WHATSAPP_URL } from "@/config/contact";
 
 const PARA_VOCE_OPTIONS = [
   { to: "/", label: "Para Você" },
@@ -45,14 +46,17 @@ const Header = () => {
       </nav>
       <div className="ml-auto flex items-center gap-8">
         <a
-          href="#"
+          href={WHATSAPP_URL}
           className="flex items-center gap-1 text-primary-foreground text-sm font-medium tracking-wider hover:text-gold transition-colors"
         >
-          (44)91234-5678 <ChevronDown className="w-4 h-4" />
+          (15) 97400-0448 <ChevronDown className="w-4 h-4" />
         </a>
-        <button className="bg-gold text-navy font-bold text-sm tracking-wider px-8 py-3 rounded-md hover:bg-gold-light transition-colors">
+        <a
+          href={WHATSAPP_URL}
+          className="bg-gold text-navy font-bold text-sm tracking-wider px-8 py-3 rounded-md hover:bg-gold-light transition-colors"
+        >
           COMECE AGORA
-        </button>
+        </a>
       </div>
     </header>
   );

@@ -15,10 +15,6 @@ const faqs = [
     answer: "Sim! Oferecemos flexibilidade total de horários para que você possa estudar quando for mais conveniente para sua rotina.",
   },
   {
-    question: "E se eu não gostar? há garantia?",
-    answer: "Sim! Oferecemos garantia de 15 dias. Se não estiver satisfeito, devolvemos 100% do seu dinheiro.",
-  },
-  {
     question: "Preciso do material adicional?",
     answer: "Não! Todo o material necessário está incluído no seu plano. Você só precisa de um dispositivo com internet.",
   },

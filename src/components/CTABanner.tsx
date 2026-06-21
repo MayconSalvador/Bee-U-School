@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import { WHATSAPP_URL } from "@/config/contact";
 
 const CTABanner = () => {
   return (
@@ -12,9 +13,9 @@ const CTABanner = () => {
             Comece hoje e descubra como é aprender de verdade.
           </p>
         </div>
-        <button className="bg-gold text-navy font-bold px-8 py-4 rounded-lg flex items-center gap-2 hover:bg-gold-light transition-colors text-lg">
+        <a href={WHATSAPP_URL} className="bg-gold text-navy font-bold px-8 py-4 rounded-lg flex items-center gap-2 hover:bg-gold-light transition-colors text-lg inline-flex">
           Teste Grátis <ArrowRight className="w-5 h-5" />
-        </button>
+        </a>
       </div>
     </section>
   );

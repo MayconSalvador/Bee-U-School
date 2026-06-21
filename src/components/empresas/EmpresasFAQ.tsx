@@ -15,10 +15,6 @@ const faqs = [
     a: "Sim. Os horários são flexíveis e adaptados à rotina executiva da sua equipe, com janelas em diferentes fusos para times distribuídos.",
   },
   {
-    q: "E se eu não gostar? Há garantia?",
-    a: "Oferecemos garantia de satisfação de 30 dias. Se a metodologia não fizer sentido para a sua empresa, devolvemos o investimento sem burocracia.",
-  },
-  {
     q: "Preciso de material adicional?",
     a: "Não. Todo o conteúdo, roteiros de prática e biblioteca de vocabulário corporativo já estão incluídos no programa.",
   },

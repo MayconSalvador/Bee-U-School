@@ -1,4 +1,5 @@
 import { ArrowRight, Star, TrendingUp, Check } from "lucide-react";
+import { WHATSAPP_URL } from "@/config/contact";
 import heroExecutive from "@/assets/home-hero-executive.png";
 
 const HomeHero = () => {
@@ -11,10 +12,11 @@ const HomeHero = () => {
             Conversação Real.{" "}
             <br />
             <span className="text-navy">
-              Professores de
+              Aulas individuais
               <br />
-              Verdade.
+              Ao vivo
             </span>{" "}
+            <br />
             Sem
             <br />
             Algoritmos.
@@ -22,7 +24,7 @@ const HomeHero = () => {
 
           <p className="mt-8 text-muted-foreground text-base leading-relaxed max-w-[480px]">
             Enquanto outras plataformas oferecem múltiplas abordagens (IA, material físico, apps), a Bee U se especializa em{" "}
-            <strong className="text-navy">UM método comprovado: conversação com professores especializados.</strong>
+            <strong className="text-navy">UM método comprovado: Fonética com professores especializados.</strong>
           </p>
 
           <p className="mt-6 text-navy font-bold text-base">
@@ -35,7 +37,7 @@ const HomeHero = () => {
 
           <div className="mt-8 space-y-3">
             {[
-              "Professores especializados em conversação profissional",
+              "Professores especializados em fonética e conversação",
               "Método comunicativo + IA adaptativa",
               "98% dos alunos falam com confiança em 6 meses",
             ].map((t) => (
@@ -49,12 +51,12 @@ const HomeHero = () => {
           </div>
 
           <div className="flex items-center gap-4 mt-10 flex-wrap">
-            <button
-              onClick={() => document.getElementById("form-section")?.scrollIntoView({ behavior: "smooth" })}
+            <a
+              href={WHATSAPP_URL}
               className="bg-navy text-primary-foreground font-semibold px-8 py-4 rounded-lg flex items-center gap-2 hover:bg-navy-dark transition-colors text-sm"
             >
               Conversar com um Professor de Verdade - Teste Grátis <ArrowRight className="w-5 h-5" />
-            </button>
+            </a>
             <button className="border-2 border-navy text-navy font-semibold px-6 py-4 rounded-lg flex items-center gap-2 hover:bg-secondary transition-colors text-sm">
               <ArrowRight className="w-4 h-4" /> Ver como Funciona
             </button>

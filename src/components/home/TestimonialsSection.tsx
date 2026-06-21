@@ -1,23 +1,23 @@
 const testimonials = [
   {
     quote:
-      '"Em 3 meses consegui passar em uma entrevista em inglês e consegui meu emprego dos sonhos em uma multinacional."',
+      '"Em 6 meses consegui passar em uma entrevista em inglês e consegui meu emprego dos sonhos em uma multinacional."',
     name: "Marina Silva",
-    role: "Gerente de Projetos",
+    role: "Analista de Projetos",
     featured: false,
   },
   {
     quote:
-      '"A metodologia da Bee U é diferente. Aprendi inglês de verdade, não apenas decorar regras. Agora consigo negociar com clientes internacionais."',
+      '"A metodologia da Bee U é diferente. Aprendi inglês de verdade, não apenas decorar regras."',
     name: "João Santos",
-    role: "Empreendedor",
+    role: "Desenvolvedor Frontend",
     featured: true,
   },
   {
     quote:
-      '"Viajei para 8 países e conversei com confiança em todos. A Bee U me deu a liberdade que eu procurava."',
-    name: "Maycon Salvador",
-    role: "Garoto de Programa",
+      '"Viajei para 4 países e conversei com confiança em todos. A Bee U me deu a liberdade que eu procurava."',
+    name: "Ana Alice",
+    role: "Analista de Marketing",
     featured: false,
   },
 ];

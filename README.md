@@ -1,2 +1,2 @@
-# BeeU-Site
+# Bee U School
 

@@ -1,8 +1,9 @@
 import { Check } from "lucide-react";
+import { WHATSAPP_URL } from "@/config/contact";
 import heroImg from "@/assets/empresas-hero.png";
 
 const bullets = [
-  "Foco total em vocabulário de alta gestão e conversação",
+  "Foco total em vocabulário de alta gestão e fonética avançada",
   "Fluência 4x mais rápida para quem não pode esperar",
   "Imersão e cultura de time-sprint, em squads de até 6 pessoas",
   "Suba de nível sem teoria fácil",
@@ -46,34 +47,20 @@ const EmpresasHero = () => {
           </ul>
         </div>
 
-        {/* Formulário */}
+        {/* WhatsApp CTA */}
         <div className="bg-navy rounded-2xl p-6 md:p-8 shadow-xl">
-          <p className="text-primary-foreground text-center text-sm font-semibold mb-5">
+          <p className="text-primary-foreground text-center text-sm font-semibold mb-6">
             Capacite sua equipe hoje
           </p>
-          <form className="space-y-3">
-            {[
-              "Nome da empresa",
-              "E-mail corporativo",
-              "Cargo",
-              "Segmento",
-              "Tamanho da empresa",
-              "Número de pessoas para capacitar",
-            ].map((ph) => (
-              <input
-                key={ph}
-                type="text"
-                placeholder={ph}
-                className="w-full bg-transparent border-b border-primary-foreground/30 text-primary-foreground placeholder:text-primary-foreground/60 text-sm py-2 outline-none focus:border-gold transition-colors"
-              />
-            ))}
-            <button
-              type="submit"
-              className="w-full mt-4 bg-gold text-navy font-bold text-sm tracking-wider py-3 rounded-md hover:bg-gold-light transition-colors"
-            >
-              CONHEÇA AGORA
-            </button>
-          </form>
+          <p className="text-primary-foreground/80 text-center text-sm leading-relaxed mb-8">
+            Clique no botão abaixo para conversar com nossos especialistas em programas corporativos via WhatsApp.
+          </p>
+          <a
+            href={WHATSAPP_URL}
+            className="w-full bg-gold text-navy font-bold text-sm tracking-wider py-3 rounded-md hover:bg-gold-light transition-colors inline-block text-center"
+          >
+            CONHEÇA AGORA
+          </a>
         </div>
       </div>
     </section>
