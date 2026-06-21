@@ -3,9 +3,9 @@ import { WHATSAPP_URL } from "@/config/contact";
 
 const Hero = () => {
   return (
-    <section className="w-full bg-background px-[160px] pt-[80px] pb-[60px] relative">
+    <section className="w-full bg-background px-4 md:px-8 lg:px-[160px] pt-[40px] md:pt-[60px] lg:pt-[80px] pb-[40px] md:pb-[60px] lg:pb-[60px] relative">
       <div className="max-w-[650px]">
-        <h1 className="text-[48px] font-black leading-[1.15] text-foreground">
+        <h1 className="text-3xl md:text-4xl lg:text-[48px] font-black leading-[1.15] text-foreground">
           Mais que uma escola.{" "}
           <br />
           Um novo jeito de{" "}
@@ -13,24 +13,24 @@ const Hero = () => {
           <span className="text-navy">aprender idiomas</span>
         </h1>
 
-        <p className="mt-8 text-muted-foreground text-lg leading-relaxed max-w-[580px]">
+        <p className="mt-6 md:mt-8 text-muted-foreground text-sm md:text-base lg:text-lg leading-relaxed max-w-[580px]">
           A Bee U nasceu para transformar a forma como as pessoas
           aprendem inglês. Com professores reais, aulas online e uma
           metodologia que coloca a conversa no centro de tudo
         </p>
 
-        <div className="flex items-center gap-4 mt-10">
-          <a href={WHATSAPP_URL} className="bg-navy text-primary-foreground font-semibold px-8 py-4 rounded-lg flex items-center gap-2 hover:bg-navy-dark transition-colors">
-            Conheça a plataforma <ArrowRight className="w-5 h-5" />
+        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mt-8 md:mt-10">
+          <a href={WHATSAPP_URL} className="bg-navy text-primary-foreground font-semibold px-6 md:px-8 py-3 md:py-4 rounded-lg flex items-center gap-2 hover:bg-navy-dark transition-colors text-sm md:text-base">
+            Conheça a plataforma <ArrowRight className="w-4 md:w-5 h-4 md:h-5" />
           </a>
-          <a href={WHATSAPP_URL} className="border-2 border-navy text-navy font-semibold px-8 py-4 rounded-lg flex items-center gap-2 hover:bg-secondary transition-colors">
-            Fale com um professor <ArrowRight className="w-5 h-5" />
+          <a href={WHATSAPP_URL} className="border-2 border-navy text-navy font-semibold px-6 md:px-8 py-3 md:py-4 rounded-lg flex items-center gap-2 hover:bg-secondary transition-colors text-sm md:text-base">
+            Fale com um professor <ArrowRight className="w-4 md:w-5 h-4 md:h-5" />
           </a>
         </div>
       </div>
 
       {/* Rating badge */}
-      <div className="absolute top-[100px] right-[180px] bg-background rounded-xl shadow-lg p-5 border border-border">
+      <div className="hidden lg:block absolute top-[100px] right-[180px] bg-background rounded-xl shadow-lg p-5 border border-border">
         <div className="flex gap-1 mb-1">
           {[...Array(5)].map((_, i) => (
             <Star key={i} className="w-5 h-5 fill-gold text-gold" />

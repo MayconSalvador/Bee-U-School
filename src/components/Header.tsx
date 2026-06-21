@@ -20,10 +20,10 @@ const Header = () => {
     PARA_VOCE_OPTIONS.find((o) => o.to === pathname) ?? PARA_VOCE_OPTIONS[0];
 
   return (
-    <header className="w-full bg-navy h-[92px] flex items-center px-[60px]">
-      <nav className="flex items-center gap-8">
+    <header className="w-full bg-navy h-20 md:h-[92px] flex items-center px-4 md:px-[60px]">
+      <nav className="hidden md:flex items-center gap-8">
         <DropdownMenu>
-          <DropdownMenuTrigger className="flex items-center gap-1 text-primary-foreground text-sm font-medium tracking-wider outline-none hover:text-gold transition-colors uppercase">
+          <DropdownMenuTrigger className="flex items-center gap-1 text-primary-foreground text-xs md:text-sm font-medium tracking-wider outline-none hover:text-gold transition-colors uppercase">
             {current.label} <ChevronDown className="w-4 h-4" />
           </DropdownMenuTrigger>
           <DropdownMenuContent align="start" className="w-56 bg-background border border-border">
@@ -39,21 +39,21 @@ const Header = () => {
 
         <Link
           to="/sobre"
-          className="flex items-center gap-1 text-primary-foreground text-sm font-medium tracking-wider hover:text-gold transition-colors"
+          className="flex items-center gap-1 text-primary-foreground text-xs md:text-sm font-medium tracking-wider hover:text-gold transition-colors"
         >
           SOBRE <ChevronDown className="w-4 h-4" />
         </Link>
       </nav>
-      <div className="ml-auto flex items-center gap-8">
+      <div className="ml-auto flex items-center gap-4 md:gap-8">
         <a
           href={WHATSAPP_URL}
-          className="flex items-center gap-1 text-primary-foreground text-sm font-medium tracking-wider hover:text-gold transition-colors"
+          className="hidden sm:flex items-center gap-1 text-primary-foreground text-xs md:text-sm font-medium tracking-wider hover:text-gold transition-colors"
         >
           (15) 97400-0448 <ChevronDown className="w-4 h-4" />
         </a>
         <a
           href={WHATSAPP_URL}
-          className="bg-gold text-navy font-bold text-sm tracking-wider px-8 py-3 rounded-md hover:bg-gold-light transition-colors"
+          className="bg-gold text-navy font-bold text-xs md:text-sm tracking-wider px-4 md:px-8 py-2 md:py-3 rounded-md hover:bg-gold-light transition-colors"
         >
           COMECE AGORA
         </a>

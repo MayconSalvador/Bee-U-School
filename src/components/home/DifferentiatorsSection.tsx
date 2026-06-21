@@ -37,21 +37,21 @@ const cards = [
 
 const DifferentiatorsSection = () => {
   return (
-    <section className="w-full bg-navy py-[80px] px-[160px]">
+    <section className="w-full bg-navy py-[80px] px-4 md:px-8 lg:px-[160px]">
       <div className="text-center mb-12">
         <span className="inline-block border border-primary-foreground/30 rounded-full px-4 py-1 text-sm text-primary-foreground mb-4">
           Diferenciadores
         </span>
-        <h2 className="text-[40px] font-bold text-primary-foreground leading-tight">
+        <h2 className="text-2xl md:text-3xl lg:text-[40px] font-bold text-primary-foreground leading-tight">
           Por que Conversação Pura{" "}
           <em className="italic">Funciona Melhor</em>
         </h2>
-        <p className="mt-4 text-primary-foreground/70 text-base max-w-[600px] mx-auto">
+        <p className="mt-4 text-primary-foreground/70 text-sm md:text-base max-w-[600px] mx-auto">
           Combinamos especialização em fonética e conversação, professores reais e comunidade de falantes para criar o método mais eficiente do mercado.
         </p>
       </div>
 
-      <div className="grid grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {cards.map((card) => (
           <div
             key={card.title}
