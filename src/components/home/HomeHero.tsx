@@ -50,7 +50,7 @@ const HomeHero = () => {
             ))}
           </div>
 
-          <div className="flex items-center gap-4 mt-10 flex-wrap">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mt-10">
             <a
               href={WHATSAPP_URL}
               className="bg-navy text-primary-foreground font-semibold px-8 py-4 rounded-lg flex items-center gap-2 hover:bg-navy-dark transition-colors text-sm"

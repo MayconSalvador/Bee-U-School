@@ -24,12 +24,12 @@ const FAQSection = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section className="w-full py-[80px] px-[160px]">
+    <section className="w-full py-[60px] md:py-[80px] px-6 md:px-[80px] lg:px-[160px]">
       <div className="text-center mb-12">
         <span className="inline-block border border-border rounded-full px-4 py-1 text-sm text-muted-foreground mb-4">
           Tire suas Dúvidas
         </span>
-        <h2 className="text-[36px] font-bold text-foreground">
+        <h2 className="text-[28px] md:text-[36px] font-bold text-foreground">
           Perguntas Frequentes
         </h2>
         <p className="mt-3 text-muted-foreground text-base">
