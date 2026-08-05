@@ -2,35 +2,35 @@ import { MessageSquareText, Users, Globe, TrendingUp } from "lucide-react";
 
 const cards = [
   {
-    tag: "Fala Primeiro",
+    tag: "Fale Primeiro",
     icon: MessageSquareText,
-    title: "Método Natural",
+    title: "Método natural",
     description:
-      "Crianças não estudam gramática — elas falam. A Bee U replica esse método natural. Você pratica fala desde o dia 1, e a gramática vem naturalmente. Resultado: Fluência real.",
+      "Crianças não começam pela gramática — elas falam. A Bee U replica esse método natural: você pratica a fala desde o primeiro dia, e a gramática vem naturalmente. O resultado é fluência real.",
     cta: "Como crianças aprendem",
   },
   {
-    tag: "Especialistas em Fala",
+    tag: "Especialistas em fala",
     icon: Users,
-    title: "Professores Especializados",
+    title: "Professores especializados",
     description:
-      "Nossos professores sao especializados em contruçao fonetica e linguistica para um novo idioma.Cada aula é adaptada ao seu progresso e objetivos reais.",
+      "Nossos professores são especializados em construção fonética e linguística de um novo idioma. Cada aula é adaptada ao seu progresso e aos seus objetivos reais.",
     cta: "Especialistas em fonética",
   },
   {
-    tag: "Pessoas Reais",
+    tag: "Pessoas reais",
     icon: Globe,
-    title: "Comunidade de Conversação",
+    title: "Comunidade de conversação",
     description:
       "Estude com uma comunidade de pessoas reais que também querem falar com confiança. Conversas reais, feedback real, progresso real. Você não está sozinho.",
     cta: "Conversação com pessoas reais",
   },
   {
-    tag: "Fluência Comprovada",
+    tag: "Fluência comprovada",
     icon: TrendingUp,
-    title: "Resultado Mensurável",
+    title: "Resultado mensurável",
     description:
-      "98% dos nossos alunos conseguem conversar com confiança em 6 meses. Resultado mensurável: você fala, se comunica, negocia em inglês.",
+      "98% dos nossos alunos conseguem conversar com confiança em 6 meses. O resultado é mensurável: você fala, se comunica e negocia em inglês.",
     cta: "Resultado que importa",
   },
 ];
@@ -43,10 +43,10 @@ const DifferentiatorsSection = () => {
           Diferenciadores
         </span>
         <h2 className="text-[32px] md:text-[40px] font-bold text-primary-foreground leading-tight">
-          Por que Conversação Pura{" "}
-          <em className="italic">Funciona Melhor</em>
+          Por que a conversação pura{" "}
+          <em className="italic">funciona melhor</em>
         </h2>
-        <p className="mt-4 text-primary-foreground/70 text-base max-w-[600px] mx-auto">
+        <p className="mt-4 text-primary-foreground/70 text-sm md:text-base max-w-[600px] mx-auto">
           Combinamos especialização em fonética e conversação, professores reais e comunidade de falantes para criar o método mais eficiente do mercado.
         </p>
       </div>

@@ -36,12 +36,14 @@ const KidsHero = () => {
           <div className="flex flex-wrap items-center gap-4 mt-10">
             <a
               href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-navy text-primary-foreground font-bold px-8 py-4 rounded-full flex items-center gap-2 hover:bg-navy-dark transition-all hover:scale-105 shadow-lg shadow-navy/20 text-sm"
             >
-              Aula Experimental Grátis <ArrowRight className="w-5 h-5" />
+              Aula experimental grátis <ArrowRight className="w-5 h-5" />
             </a>
             <button className="bg-gold text-navy font-bold px-6 py-4 rounded-full hover:bg-gold-light transition-all hover:scale-105 text-sm shadow-md">
-              Ver Metodologia
+              Ver metodologia
             </button>
           </div>
 

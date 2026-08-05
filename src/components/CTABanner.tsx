@@ -13,7 +13,7 @@ const CTABanner = () => {
             Comece hoje e descubra como é aprender de verdade.
           </p>
         </div>
-        <a href={WHATSAPP_URL} className="bg-gold text-navy font-bold px-8 py-4 rounded-lg flex items-center gap-2 hover:bg-gold-light transition-colors text-lg inline-flex">
+        <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="bg-gold text-navy font-bold px-8 py-4 rounded-lg flex items-center gap-2 hover:bg-gold-light transition-colors text-lg inline-flex">
           Teste Grátis <ArrowRight className="w-5 h-5" />
         </a>
       </div>

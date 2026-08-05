@@ -26,7 +26,7 @@ const Header = () => {
       {/* Desktop nav */}
       <nav className="hidden md:flex items-center gap-8">
         <DropdownMenu>
-          <DropdownMenuTrigger className="flex items-center gap-1 text-primary-foreground text-sm font-medium tracking-wider outline-none hover:text-gold transition-colors uppercase">
+          <DropdownMenuTrigger className="flex items-center gap-1 text-primary-foreground text-xs md:text-sm font-medium tracking-wider outline-none hover:text-gold transition-colors uppercase">
             {current.label} <ChevronDown className="w-4 h-4" />
           </DropdownMenuTrigger>
           <DropdownMenuContent align="start" className="w-56 bg-background border border-border">
@@ -42,33 +42,46 @@ const Header = () => {
 
         <Link
           to="/sobre"
-          className="flex items-center gap-1 text-primary-foreground text-sm font-medium tracking-wider hover:text-gold transition-colors"
+          className="flex items-center gap-1 text-primary-foreground text-xs md:text-sm font-medium tracking-wider hover:text-gold transition-colors"
         >
           SOBRE <ChevronDown className="w-4 h-4" />
         </Link>
       </nav>
 
+      <Link
+        to="/"
+        aria-label="Ir para a página inicial da Bee U"
+        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+      >
+        <img
+          src="/favicon.ico"
+          alt="Bee U"
+          className="h-12 w-12 md:h-14 md:w-14 rounded-xl object-contain"
+        />
+      </Link>
+
       {/* Desktop right */}
       <div className="hidden md:flex ml-auto items-center gap-8">
         <a
           href={WHATSAPP_URL}
-          className="flex items-center gap-1 text-primary-foreground text-sm font-medium tracking-wider hover:text-gold transition-colors"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hidden sm:flex items-center gap-1 text-primary-foreground text-xs md:text-sm font-medium tracking-wider hover:text-gold transition-colors"
         >
           (15) 97400-0448
         </a>
         <a
           href={WHATSAPP_URL}
-          className="bg-gold text-navy font-bold text-sm tracking-wider px-8 py-3 rounded-md hover:bg-gold-light transition-colors"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-gold text-navy font-bold text-xs max-[370px]:text-[10px] md:text-sm tracking-wider px-4 max-[370px]:px-3 md:px-8 py-2 md:py-3 rounded-md hover:bg-gold-light transition-colors"
         >
           COMECE AGORA
         </a>
       </div>
 
       {/* Mobile layout */}
-      <div className="flex md:hidden items-center justify-between w-full">
-        <Link to="/" className="text-primary-foreground font-black text-xl tracking-wide">
-          Bee U
-        </Link>
+      <div className="flex md:hidden items-center justify-end w-full">
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
           className="text-primary-foreground p-2"
@@ -105,12 +118,16 @@ const Header = () => {
             <div className="pt-5 flex flex-col gap-3">
               <a
                 href={WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-primary-foreground text-base font-medium hover:text-gold transition-colors"
               >
                 (15) 97400-0448
               </a>
               <a
                 href={WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setMobileOpen(false)}
                 className="bg-gold text-navy font-bold text-sm tracking-wider px-6 py-3 rounded-md hover:bg-gold-light transition-colors text-center"
               >

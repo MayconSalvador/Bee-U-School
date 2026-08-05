@@ -22,51 +22,51 @@ import { cn } from "@/lib/utils";
 const benefits = [
   {
     icon: MessageSquareText,
-    title: "Conversação de Alto Impacto",
+    title: "Conversação de alto impacto",
     description:
-      "Aulas focadas em fala 100% do tempo, em vivos práticos com seu negócio para destravar negociações reais.",
+      "Aulas 100% focadas na fala, com encontros ao vivo e situações práticas do seu negócio para destravar negociações reais.",
   },
   {
     icon: Users,
-    title: "Mentoria 100% Ao Vivo",
+    title: "Mentoria 100% ao vivo",
     description:
-      "Esqueça plataformas robóticas. A sua equipe fala ao vivo com nativos e escala fluência real e competitiva, com a nossa rede.",
+      "Esqueça as plataformas robóticas. Sua equipe conversa ao vivo com professores e desenvolve uma fluência real e competitiva.",
   },
   {
     icon: Presentation,
-    title: "Simulações de debate Corporativo",
+    title: "Simulações de debates corporativos",
     description:
-      "Não fazemos aulas escritas. Realizamos role-plays, prática de venda e tarefas reais com nativos.",
+      "Não nos limitamos a exercícios escritos. Realizamos simulações, práticas de vendas e tarefas reais com professores.",
   },
   {
     icon: Briefcase,
-    title: "Vocabulário Blindado para o seu Nicho",
+    title: "Vocabulário específico para o seu nicho",
     description:
-      "Fazer utilização técnica e assertiva, alinhada exclusivamente à fluência de jurídico, financeiro ou seu time-sprint, lançam ao mercado.",
+      "Desenvolva uma comunicação técnica e assertiva, alinhada às necessidades dos setores jurídico, financeiro ou de qualquer outra área da sua empresa.",
   },
   {
     icon: Rocket,
     title: "Aceleração Bee U: 2x mais rápido",
     description:
-      "Com nosso foco e o nosso método prático, sua equipe atinge resultados em metade do tempo dos concorrentes.",
+      "Com foco e um método prático, sua equipe atinge resultados em metade do tempo dos métodos convencionais.",
   },
   {
     icon: Target,
-    title: "Performance sob Pressão",
+    title: "Desempenho sob pressão",
     description:
-      "Treinamos sua confiança. O objetivo é que sua equipe se sinta tranquila em qualquer contexto, ser fluente em qualquer idioma nativo.",
+      "Treinamos a confiança da sua equipe para que ela se comunique com tranquilidade em diferentes contextos profissionais.",
   },
   {
     icon: Globe,
-    title: "Networking e Cultura Global",
+    title: "Networking e cultura global",
     description:
-      "Aulas conectam, conversam. O inglês entra de uma forma natural, a partir de conversas e cases que extraem o melhor da nossa empresa.",
+      "As aulas conectam pessoas. O inglês é incorporado de forma natural, por meio de conversas e casos que refletem a realidade da sua empresa.",
   },
   {
     icon: TrendingUp,
-    title: "ROI Transparente e Expansão",
+    title: "ROI transparente e expansão",
     description:
-      "Tracking corporativos com Excel. Cada colaborador recebe relatório de evolução para acelerar o seu negócio.",
+      "Acompanhamento corporativo transparente: cada colaborador recebe relatórios de evolução para impulsionar os resultados do seu negócio.",
   },
 ];
 
@@ -100,7 +100,7 @@ const EmpresasBenefits = () => {
           Descubra nossos benefícios!
         </h2>
         <p className="mt-3 text-muted-foreground text-sm">
-          A sua time vai mais longe quando o inglês deixa de ser barreira e vira
+          Seu time vai mais longe quando o inglês deixa de ser uma barreira e vira
           alavanca de resultado, contrato e novas oportunidades.
         </p>
       </div>

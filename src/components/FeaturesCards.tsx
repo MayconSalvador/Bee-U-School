@@ -3,15 +3,15 @@ import { Users, GraduationCap, Video } from "lucide-react";
 const features = [
   {
     icon: Users,
-    title: "Nome do Grupo",
+    title: "Método Bee U",
     description:
-      "A Bee U não apenas forma falantes, mas dominadores da lingua, transformando o inglês em segunda Lingua Mãe. Ensinando de forma natural e imersiva.",
+      "A Bee U não forma apenas falantes: ajuda você a dominar o idioma e a transformar o inglês em uma segunda língua, de forma natural e imersiva.",
   },
   {
     icon: GraduationCap,
     title: "Professores",
     description:
-      "Somos um grupo de professores que tirou o ensino e aprendizado do convencional, focando em eficiencia e comunicação real",
+      "Somos um grupo de professores que levou o ensino e a aprendizagem para além do convencional, com foco em eficiência e comunicação real.",
   },
   {
     icon: Video,
@@ -23,8 +23,8 @@ const features = [
 
 const FeaturesCards = () => {
   return (
-    <section className="w-full px-[160px] pb-[80px]">
-      <div className="grid grid-cols-3 gap-6">
+    <section className="w-full px-4 md:px-8 lg:px-[160px] pb-[80px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {features.map((feature) => (
           <div
             key={feature.title}

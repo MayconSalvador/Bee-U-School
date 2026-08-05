@@ -8,7 +8,7 @@ const testimonials = [
   },
   {
     quote:
-      '"A metodologia da Bee U é diferente. Aprendi inglês de verdade, não apenas decorar regras."',
+      '"A metodologia da Bee U é diferente. Aprendi inglês de verdade, e não apenas a decorar regras."',
     name: "João Santos",
     role: "Desenvolvedor Frontend",
     featured: true,
@@ -27,7 +27,7 @@ const TestimonialsSection = () => {
     <section className="w-full bg-light-blue py-[60px] md:py-[80px] px-6 md:px-[80px] lg:px-[160px]">
       <div className="text-center mb-12">
         <span className="inline-block border border-border rounded-full px-4 py-1 text-sm text-muted-foreground mb-4">
-          Historias Reais
+          Histórias reais
         </span>
         <h2 className="text-[32px] md:text-[40px] font-bold text-foreground leading-tight">
           Não ouça apenas a gente.

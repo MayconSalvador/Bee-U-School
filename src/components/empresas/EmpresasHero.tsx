@@ -5,8 +5,8 @@ import heroImg from "@/assets/empresas-hero.png";
 const bullets = [
   "Foco total em vocabulário de alta gestão e fonética avançada",
   "Fluência 4x mais rápida para quem não pode esperar",
-  "Imersão e cultura de time-sprint, em squads de até 6 pessoas",
-  "Suba de nível sem teoria fácil",
+  "Imersão e cultura de sprint, em equipes de até 6 pessoas",
+  "Suba de nível sem teoria desnecessária",
 ];
 
 const EmpresasHero = () => {
@@ -31,7 +31,7 @@ const EmpresasHero = () => {
             Você ainda está perdendo tempo com gramática?
           </h2>
           <p className="mt-4 text-muted-foreground text-[14px] leading-relaxed">
-            Enquanto sua time hesita traduzindo, o mercado global fecha contratos em
+            Enquanto seu time hesita ao traduzir, o mercado global fecha contratos em
             inglês. Na Bee U, nós não ensinamos inglês: nós destravamos lucros.
           </p>
 
@@ -57,6 +57,8 @@ const EmpresasHero = () => {
           </p>
           <a
             href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full bg-gold text-navy font-bold text-sm tracking-wider py-3 rounded-md hover:bg-gold-light transition-colors inline-block text-center"
           >
             CONHEÇA AGORA
