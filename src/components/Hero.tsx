@@ -16,14 +16,14 @@ const Hero = () => {
         <p className="mt-6 md:mt-8 text-muted-foreground text-sm md:text-base lg:text-lg leading-relaxed max-w-[580px]">
           A Bee U nasceu para transformar a forma como as pessoas
           aprendem inglês. Com professores reais, aulas online e uma
-          metodologia que coloca a conversa no centro de tudo
+          metodologia que coloca a conversa no centro de tudo.
         </p>
 
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mt-8 md:mt-10">
-          <a href={WHATSAPP_URL} className="bg-navy text-primary-foreground font-semibold px-6 md:px-8 py-3 md:py-4 rounded-lg flex items-center gap-2 hover:bg-navy-dark transition-colors text-sm md:text-base">
+          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="bg-navy text-primary-foreground font-semibold px-6 md:px-8 py-3 md:py-4 rounded-lg flex items-center gap-2 hover:bg-navy-dark transition-colors text-sm md:text-base">
             Conheça a plataforma <ArrowRight className="w-4 md:w-5 h-4 md:h-5" />
           </a>
-          <a href={WHATSAPP_URL} className="border-2 border-navy text-navy font-semibold px-6 md:px-8 py-3 md:py-4 rounded-lg flex items-center gap-2 hover:bg-secondary transition-colors text-sm md:text-base">
+          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="border-2 border-navy text-navy font-semibold px-6 md:px-8 py-3 md:py-4 rounded-lg flex items-center gap-2 hover:bg-secondary transition-colors text-sm md:text-base">
             Fale com um professor <ArrowRight className="w-4 md:w-5 h-4 md:h-5" />
           </a>
         </div>
@@ -46,8 +46,8 @@ const Hero = () => {
           <TrendingUp className="w-6 h-6 text-navy" />
         </div>
         <div>
-          <p className="text-foreground font-bold text-base">Aulas ao Vivo</p>
-          <p className="text-muted-foreground text-sm">Fale, Pratique,Evolua.</p>
+          <p className="text-foreground font-bold text-base">Aulas ao vivo</p>
+          <p className="text-muted-foreground text-sm">Fale, pratique, evolua.</p>
         </div>
       </div>
     </section>

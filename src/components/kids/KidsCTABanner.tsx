@@ -32,9 +32,11 @@ const KidsCTABanner = () => {
             </div>
             <a
               href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gold text-navy font-black px-8 py-4 rounded-full flex items-center gap-2 hover:bg-gold-light hover:scale-105 transition-all text-sm shadow-xl"
             >
-              Quero a Aula Grátis <ArrowRight className="w-5 h-5" />
+              Quero a aula grátis <ArrowRight className="w-5 h-5" />
             </a>
           </div>
         </div>

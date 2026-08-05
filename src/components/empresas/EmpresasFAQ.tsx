@@ -30,7 +30,7 @@ const EmpresasFAQ = () => {
           TIRE SUAS DÚVIDAS
         </span>
         <h2 className="mt-5 text-[28px] md:text-[34px] font-bold text-navy">
-          Perguntas Frequentes
+          Perguntas frequentes
         </h2>
         <p className="mt-2 text-muted-foreground text-sm">
           Respondemos suas dúvidas mais comuns

@@ -2,9 +2,9 @@ import { Users, Star, Globe, Clock } from "lucide-react";
 
 const stats = [
   { icon: Users, value: "50", label: "Alunos ativos" },
-  { icon: Star, value: "4.3", label: "Avaliação Média" },
-  { icon: Globe, value: "7+", label: "Paises Alcançados" },
-  { icon: Clock, value: "90 000", label: "Horas de Aula" },
+  { icon: Star, value: "4,3", label: "Avaliação média" },
+  { icon: Globe, value: "7+", label: "Países alcançados" },
+  { icon: Clock, value: "90.000", label: "Horas de aula" },
 ];
 
 const StatsSection = () => {

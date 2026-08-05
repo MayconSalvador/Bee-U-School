@@ -3,15 +3,15 @@ import { Users, GraduationCap, Video } from "lucide-react";
 const features = [
   {
     icon: Users,
-    title: "Nome do Grupo",
+    title: "Método Bee U",
     description:
-      "A Bee U não apenas forma falantes, mas dominadores da lingua, transformando o inglês em segunda Lingua Mãe. Ensinando de forma natural e imersiva.",
+      "A Bee U não forma apenas falantes: ajuda você a dominar o idioma e a transformar o inglês em uma segunda língua, de forma natural e imersiva.",
   },
   {
     icon: GraduationCap,
     title: "Professores",
     description:
-      "Somos um grupo de professores que tirou o ensino e aprendizado do convencional, focando em eficiencia e comunicação real",
+      "Somos um grupo de professores que levou o ensino e a aprendizagem para além do convencional, com foco em eficiência e comunicação real.",
   },
   {
     icon: Video,

@@ -11,7 +11,7 @@ const AboutSection = () => {
             Feita por pessoas que acreditam em comunicação de verdade
           </h2>
           <p className="text-muted-foreground text-base leading-relaxed">
-            Professores que não seguem roteiro.Que se adaptam a você. que entendem que cada aluno tem seu tempo, sua história e seu jeiro de aprender.
+            Professores que não seguem um roteiro engessado, que se adaptam a você e entendem que cada aluno tem seu tempo, sua história e seu jeito de aprender.
           </p>
         </div>
 
@@ -21,10 +21,10 @@ const AboutSection = () => {
             NOSSA MISSÃO
           </span>
           <h2 className="text-[28px] font-bold text-foreground leading-tight mb-4">
-            Fazer você se sentir confortavel falando em um novo idioma
+            Fazer você se sentir confortável falando um novo idioma
           </h2>
           <p className="text-muted-foreground text-base leading-relaxed">
-            Porque o mundo é grande demais pra você ficar preso na barreira do idioma.
+            Porque o mundo é grande demais para você ficar preso à barreira do idioma.
           </p>
         </div>
       </div>

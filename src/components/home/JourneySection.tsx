@@ -1,18 +1,18 @@
 const steps = [
   {
     number: 1,
-    title: "Teste Gratuito",
-    description: "Comece com uma aula grátis e conheça nossa metodologia",
+    title: "Teste gratuito",
+    description: "Comece com uma aula grátis e conheça nossa metodologia.",
   },
   {
     number: 2,
-    title: "Personalize seu Plano",
-    description: "Escolha a frequência e o nível que melhor se adequa a você",
+    title: "Personalize seu plano",
+    description: "Escolha a frequência e o nível que melhor se adequam a você.",
   },
   {
     number: 3,
-    title: "Aprenda e Cresça",
-    description: "Estude quando quiser e acompanhe seu progresso em tempo real",
+    title: "Aprenda e cresça",
+    description: "Estude quando quiser e acompanhe seu progresso em tempo real.",
   },
 ];
 

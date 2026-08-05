@@ -23,6 +23,8 @@ const HomeCTABanner = () => {
           <div className="mt-8">
             <a
               href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gold text-navy font-bold px-8 py-4 rounded-lg flex items-center gap-2 hover:bg-gold-light transition-colors text-sm inline-flex"
             >
               Quero essa liberdade <ArrowRight className="w-5 h-5" />

@@ -9,22 +9,22 @@ const HomeHero = () => {
         {/* Texto */}
         <div className="max-w-[600px]">
           <h1 className="text-[40px] md:text-[52px] font-black leading-[1.1] text-foreground">
-            Conversação Real.{" "}
+            Conversação real.{" "}
             <br />
             <span className="text-navy">
-              Aulas individuais
+              Aulas individuais,
               <br />
-              Ao vivo
+              ao vivo,
             </span>{" "}
             <br />
-            Sem
+            sem
             <br />
-            Algoritmos.
+            algoritmos.
           </h1>
 
           <p className="mt-8 text-muted-foreground text-base leading-relaxed max-w-[480px]">
             Enquanto outras plataformas oferecem múltiplas abordagens (IA, material físico, apps), a Bee U se especializa em{" "}
-            <strong className="text-navy">UM método comprovado: Fonética com professores especializados.</strong>
+            <strong className="text-navy">um método comprovado: fonética com professores especializados.</strong>
           </p>
 
           <p className="mt-6 text-navy font-bold text-base">
@@ -53,12 +53,14 @@ const HomeHero = () => {
           <div className="flex items-center gap-4 mt-10 flex-wrap">
             <a
               href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-navy text-primary-foreground font-semibold px-8 py-4 rounded-lg flex items-center gap-2 hover:bg-navy-dark transition-colors text-sm"
             >
-              Conversar com um Professor de Verdade - Teste Grátis <ArrowRight className="w-5 h-5" />
+              Conversar com um professor de verdade — teste grátis <ArrowRight className="w-5 h-5" />
             </a>
             <button className="border-2 border-navy text-navy font-semibold px-6 py-4 rounded-lg flex items-center gap-2 hover:bg-secondary transition-colors text-sm">
-              <ArrowRight className="w-4 h-4" /> Ver como Funciona
+              <ArrowRight className="w-4 h-4" /> Ver como funciona
             </button>
           </div>
         </div>
@@ -89,8 +91,8 @@ const HomeHero = () => {
                 <TrendingUp className="w-5 h-5 text-navy" />
               </div>
               <div>
-                <p className="text-muted-foreground text-[11px]">Progresso Semanal</p>
-                <p className="text-navy font-bold text-sm">+340% Mais rápido</p>
+                <p className="text-muted-foreground text-[11px]">Progresso semanal</p>
+                <p className="text-navy font-bold text-sm">+340% mais rápido</p>
               </div>
             </div>
           </div>

@@ -7,8 +7,8 @@ const faqs = [
     answer: "Com nossa metodologia focada em conversação, a maioria dos alunos consegue se comunicar com confiança em 6 meses de prática consistente.",
   },
   {
-    question: "Qual a metodologia da Bee U",
-    answer: "Nossa metodologia é baseada em conversação real com professores especializados. Você fala desde o primeiro dia, como crianças aprendem naturalmente.",
+    question: "Qual é a metodologia da Bee U?",
+    answer: "Nossa metodologia é baseada em conversação real com professores especializados. Você fala desde o primeiro dia, assim como as crianças aprendem naturalmente.",
   },
   {
     question: "Posso fazer as aulas no meu horário?",
@@ -27,10 +27,10 @@ const FAQSection = () => {
     <section className="w-full py-[80px] px-[160px]">
       <div className="text-center mb-12">
         <span className="inline-block border border-border rounded-full px-4 py-1 text-sm text-muted-foreground mb-4">
-          Tire suas Dúvidas
+          Tire suas dúvidas
         </span>
         <h2 className="text-[36px] font-bold text-foreground">
-          Perguntas Frequentes
+          Perguntas frequentes
         </h2>
         <p className="mt-3 text-muted-foreground text-base">
           Respondemos suas dúvidas mais comuns

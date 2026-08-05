@@ -10,18 +10,18 @@ const values = [
     icon: User,
     title: "Professores, não bots",
     description:
-      "Pessoas entendem pessoas. Eisso muda tudo no aprendizado.",
+      "Pessoas entendem pessoas. E isso muda tudo na aprendizagem.",
   },
   {
     icon: Heart,
     title: "Erro faz parte",
-    description: "Aqui, errar não é falha. É processo acontecendo.",
+    description: "Aqui, errar não é falhar. É parte do processo.",
   },
   {
     icon: TrendingUp,
     title: "Evolução real",
     description:
-      'você não "completa niveis" Você começa a viver o idioma.',
+      'Você não apenas "completa níveis". Você começa a viver o idioma.',
   },
 ];
 
@@ -36,7 +36,7 @@ const EssenceSection = () => {
           O que nos move todos os dias
         </h2>
         <p className="mt-4 text-muted-foreground text-lg max-w-[650px] mx-auto">
-          Acreditamos quem aprender um idioma vai muito além da gramatica.
+          Acreditamos que aprender um idioma vai muito além da gramática.
           <br />É sobre pessoas, conexão e novas possibilidades.
         </p>
       </div>

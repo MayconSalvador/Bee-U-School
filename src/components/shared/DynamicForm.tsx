@@ -9,7 +9,7 @@ interface DynamicFormProps {
 
 const DynamicForm = ({ title, id = "form-section", pageOrigin = "home" }: DynamicFormProps) => {
   const handleWhatsAppClick = () => {
-    window.open(WHATSAPP_URL, "_blank");
+    window.open(WHATSAPP_URL, "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -25,7 +25,7 @@ const DynamicForm = ({ title, id = "form-section", pageOrigin = "home" }: Dynami
             onClick={handleWhatsAppClick}
             className="w-full bg-gold text-navy font-bold text-sm tracking-wider py-3 rounded-md hover:bg-gold-light transition-colors flex items-center justify-center gap-2"
           >
-            QUERO COMECAR <ArrowRight className="w-5 h-5" />
+            QUERO COMEÇAR <ArrowRight className="w-5 h-5" />
           </button>
         </div>
       </div>
