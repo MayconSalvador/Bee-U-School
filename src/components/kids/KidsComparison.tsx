@@ -28,11 +28,11 @@ const KidsComparison = () => {
 
       <div className="max-w-[820px] mx-auto bg-background border-4 border-light-blue rounded-3xl overflow-hidden shadow-lg">
         <div className="grid grid-cols-3 bg-navy text-primary-foreground">
-          <div className="p-5 font-bold text-sm">Características</div>
-          <div className="p-5 font-bold text-sm text-center border-l border-navy-dark">
+          <div className="p-3 sm:p-5 font-bold text-xs sm:text-sm">Características</div>
+          <div className="p-3 sm:p-5 font-bold text-xs sm:text-sm text-center border-l border-navy-dark">
             Outras escolas
           </div>
-          <div className="p-5 font-black text-sm text-center bg-gold text-navy">
+          <div className="p-3 sm:p-5 font-black text-xs sm:text-sm text-center bg-gold text-navy">
             🐝 Bee U Kids
           </div>
         </div>
@@ -41,15 +41,15 @@ const KidsComparison = () => {
             key={row}
             className={`grid grid-cols-3 ${idx % 2 === 0 ? "bg-background" : "bg-light-blue/40"}`}
           >
-            <div className="p-5 text-foreground text-sm font-medium">{row}</div>
-            <div className="p-5 flex justify-center border-l border-border">
-              <div className="w-8 h-8 rounded-full bg-muted flex items-center justify-center">
-                <X className="w-4 h-4 text-muted-foreground" />
+            <div className="p-3 sm:p-5 text-foreground text-xs sm:text-sm font-medium leading-snug">{row}</div>
+            <div className="p-3 sm:p-5 flex justify-center border-l border-border">
+              <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-muted flex items-center justify-center">
+                <X className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-muted-foreground" />
               </div>
             </div>
-            <div className="p-5 flex justify-center border-l border-border bg-gold/10">
-              <div className="w-8 h-8 rounded-full bg-gold flex items-center justify-center shadow-sm">
-                <Check className="w-4 h-4 text-navy" strokeWidth={3} />
+            <div className="p-3 sm:p-5 flex justify-center border-l border-border bg-gold/10">
+              <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-gold flex items-center justify-center shadow-sm">
+                <Check className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-navy" strokeWidth={3} />
               </div>
             </div>
           </div>

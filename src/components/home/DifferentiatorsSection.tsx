@@ -37,12 +37,12 @@ const cards = [
 
 const DifferentiatorsSection = () => {
   return (
-    <section className="w-full bg-navy py-[80px] px-4 md:px-8 lg:px-[160px]">
+    <section className="w-full bg-navy py-[60px] md:py-[80px] px-6 md:px-[80px] lg:px-[160px]">
       <div className="text-center mb-12">
         <span className="inline-block border border-primary-foreground/30 rounded-full px-4 py-1 text-sm text-primary-foreground mb-4">
           Diferenciadores
         </span>
-        <h2 className="text-2xl md:text-3xl lg:text-[40px] font-bold text-primary-foreground leading-tight">
+        <h2 className="text-[32px] md:text-[40px] font-bold text-primary-foreground leading-tight">
           Por que a conversação pura{" "}
           <em className="italic">funciona melhor</em>
         </h2>
@@ -55,7 +55,7 @@ const DifferentiatorsSection = () => {
         {cards.map((card) => (
           <div
             key={card.title}
-            className="bg-navy-dark border border-primary-foreground/10 rounded-2xl p-10"
+            className="bg-navy-dark border border-primary-foreground/10 rounded-2xl p-6 md:p-10"
           >
             <div className="flex items-center gap-3 mb-4">
               <div className="w-12 h-12 bg-gold rounded-full flex items-center justify-center">

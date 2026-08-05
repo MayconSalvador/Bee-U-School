@@ -9,8 +9,8 @@ const stats = [
 
 const HomeStats = () => {
   return (
-    <section className="w-full py-[60px] px-[160px]">
-      <div className="flex items-center justify-between">
+    <section className="w-full py-10 md:py-[60px] px-6 md:px-[80px] lg:px-[160px]">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4">
         {stats.map((stat) => (
           <div key={stat.label} className="flex flex-col items-center text-center">
             <div className="w-14 h-14 rounded-full border-2 border-navy flex items-center justify-center mb-4">

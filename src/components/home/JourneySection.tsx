@@ -18,12 +18,12 @@ const steps = [
 
 const JourneySection = () => {
   return (
-    <section className="w-full py-[80px] px-4 md:px-8 lg:px-[160px]">
+    <section className="w-full py-[60px] md:py-[80px] px-6 md:px-[80px] lg:px-[160px]">
       <div className="text-center mb-12">
         <span className="inline-block border border-border rounded-full px-4 py-1 text-sm text-muted-foreground mb-4">
           Simples assim
         </span>
-        <h2 className="text-2xl md:text-3xl lg:text-[40px] font-bold text-foreground leading-tight">
+        <h2 className="text-[32px] md:text-[40px] font-bold text-foreground leading-tight">
           Sua jornada para a fluência em{" "}
           <span className="text-gold">3 passos</span>
         </h2>
@@ -32,7 +32,7 @@ const JourneySection = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {steps.map((step) => (
           <div
             key={step.number}
