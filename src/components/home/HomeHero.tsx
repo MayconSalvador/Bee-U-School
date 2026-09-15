@@ -1,4 +1,4 @@
-import { ArrowRight, Star, TrendingUp, Check } from "lucide-react";
+import { ArrowRight, Star, TrendingUp } from "lucide-react";
 import { WHATSAPP_URL } from "@/config/contact";
 import heroExecutive from "@/assets/home-hero-executive.png";
 
@@ -9,45 +9,28 @@ const HomeHero = () => {
         {/* Texto */}
         <div className="max-w-[600px]">
           <h1 className="text-[40px] md:text-[52px] font-black leading-[1.1] text-foreground">
-            Conversação real.{" "}
-            <br />
-            <span className="text-navy">
-              Aulas individuais,
-              <br />
-              ao vivo,
-            </span>{" "}
-            <br />
-            sem
-            <br />
-            algoritmos.
+            Inglês para <span className="text-navy">falar de verdade</span>
           </h1>
 
           <p className="mt-8 text-muted-foreground text-base leading-relaxed max-w-[480px]">
-            Enquanto outras plataformas oferecem múltiplas abordagens (IA, material físico, apps), a Bee U se especializa em{" "}
-            <strong className="text-navy">um método comprovado: fonética com professores especializados.</strong>
+            Aulas individuais, ao vivo, com professores especializados em fonética e conversação.
           </p>
 
           <p className="mt-6 text-navy font-bold text-base">
             Sem atalhos. Sem distrações. Apenas fala.
           </p>
 
-          <p className="mt-4 text-muted-foreground text-sm leading-relaxed max-w-[420px]">
-            Como as crianças aprendem: falam primeiro, escrevem depois. A Bee U replica esse método natural com especialistas em conversação.
-          </p>
-
-          <div className="mt-8 space-y-3">
-            {[
-              "Professores especializados em fonética e conversação",
-              "Método comunicativo + IA adaptativa",
-              "98% dos alunos falam com confiança em 6 meses",
-            ].map((t) => (
-              <div key={t} className="flex items-center gap-3">
-                <div className="w-6 h-6 rounded-full border-2 border-gold flex items-center justify-center">
-                  <Check className="w-3.5 h-3.5 text-gold" />
-                </div>
-                <p className="text-foreground text-sm font-medium">{t}</p>
-              </div>
-            ))}
+          <div className="mt-4 space-y-4 text-muted-foreground text-sm leading-relaxed max-w-[480px]">
+            <p>
+              Na Bee U, o aluno não aprende inglês apenas para responder exercícios ou memorizar frases.
+            </p>
+            <p>
+              Ele aprende a ouvir, reconhecer e produzir os sons da língua para desenvolver uma fala mais natural, clara e confiante.
+            </p>
+            <p>
+              Nossa metodologia foca onde a comunicação começa:
+              <strong className="block mt-2 text-navy text-xl font-black">NO SOM.</strong>
+            </p>
           </div>
 
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mt-10">
@@ -59,9 +42,6 @@ const HomeHero = () => {
             >
               Conversar com um professor de verdade — teste grátis <ArrowRight className="w-5 h-5" />
             </a>
-            <button className="border-2 border-navy text-navy font-semibold px-6 py-4 rounded-lg flex items-center gap-2 hover:bg-secondary transition-colors text-sm">
-              <ArrowRight className="w-4 h-4" /> Ver como funciona
-            </button>
           </div>
         </div>
 
@@ -78,10 +58,10 @@ const HomeHero = () => {
             <div className="absolute top-4 right-4 bg-background/95 backdrop-blur rounded-xl shadow-lg p-3 border border-border">
               <div className="flex gap-0.5 mb-0.5">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-3.5 h-3.5 fill-gold text-gold" />
+                  <Star key={i} className={`w-3.5 h-3.5 text-gold ${i < 4 ? "fill-gold" : "fill-none"}`} />
                 ))}
               </div>
-              <p className="text-foreground font-bold text-sm">4.9 / 5.0</p>
+              <p className="text-foreground font-bold text-sm">4.0 / 5.0</p>
               <p className="text-muted-foreground text-[10px]">+1.200 avaliações</p>
             </div>
 
@@ -92,7 +72,7 @@ const HomeHero = () => {
               </div>
               <div>
                 <p className="text-muted-foreground text-[11px]">Progresso semanal</p>
-                <p className="text-navy font-bold text-sm">+340% mais rápido</p>
+                <p className="text-navy font-bold text-sm">100%</p>
               </div>
             </div>
           </div>
