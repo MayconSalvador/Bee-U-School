@@ -5,12 +5,14 @@ import Index from "./pages/Index.tsx";
 import ParaSeuFilho from "./pages/ParaSeuFilho.tsx";
 import Empresas from "./pages/Empresas.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import AnniversaryModal from "./components/AnniversaryModal";
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <BrowserRouter>
+      <AnniversaryModal />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/sobre" element={<Index />} />
