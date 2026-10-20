@@ -22,6 +22,10 @@ describe("AnniversaryModal", () => {
     expect(screen.getByRole("link", { name: /Saiba mais/ })).toHaveAttribute(
       "href", expect.stringContaining(`https://wa.me/${WHATSAPP_NUMBER}?text=`),
     );
+    const whatsappUrl = new URL(screen.getByRole("link", { name: /Saiba mais/ }).getAttribute("href")!);
+    expect(whatsappUrl.searchParams.get("text")).toBe(
+      "Olá! Vim pelo site da Bee U e quero aproveitar meu cupom BEEU25 de 25% OFF na promoção de aniversário de 8 anos. Gostaria de saber mais!",
+    );
     fireEvent.click(screen.getByRole("button", { name: "Fechar promoção" }));
     expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
     unmount();

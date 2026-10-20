@@ -9,7 +9,7 @@ const SESSION_KEY = "beeu:anniversary-2026:seen";
 // Includes all of November 8 in the school's timezone (Brasília).
 const CAMPAIGN_END = Date.parse("2026-11-09T00:00:00-03:00");
 const DETAILS_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-  "Olá! Vim pelo site da Bee U e gostaria de saber mais sobre as promoções de aniversário de 8 anos.",
+  "Olá! Vim pelo site da Bee U e quero aproveitar meu cupom BEEU25 de 25% OFF na promoção de aniversário de 8 anos. Gostaria de saber mais!",
 )}`;
 
 function shouldShowCampaign() {
