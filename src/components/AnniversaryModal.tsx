@@ -52,18 +52,18 @@ export default function AnniversaryModal() {
         <DialogOverlay className="bg-slate-950/80 backdrop-blur-sm" />
         <Dialog.Content
           className="fixed left-1/2 top-1/2 z-50 max-h-[calc(100dvh-32px)] -translate-x-1/2 -translate-y-1/2 overflow-y-auto rounded-2xl bg-[#041d35] text-white shadow-2xl outline-none focus-visible:ring-2 focus-visible:ring-white"
-          style={{ width: "min(calc(100vw - 32px), 560px, calc(100dvh - 152px))" }}
+          style={{ width: "min(calc(100vw - 32px), 560px, calc((100dvh - 152px) * 0.8))" }}
         >
           <Dialog.Title className="sr-only">Aniversário de 8 anos da Bee U</Dialog.Title>
           <Dialog.Description className="sr-only">
-            No aniversário Bee U, quem ganha o presente é você. Conheça as promoções
-            de aniversário até 8 de novembro de 2026.
+            B-Day Promo: cursos a partir de R$ 139,00 mensais e pacotes com 25% OFF.
+            Conheça as promoções de aniversário até 8 de novembro de 2026.
           </Dialog.Description>
           <img
             src={anniversaryArt}
-            alt="Bee U: 8 anos fazendo uma revolução no ensino e aprendizado da língua inglesa. No aniversário Bee U, quem ganha o presente é você."
-            width={1254}
-            height={1254}
+            alt="Bee U: 8 anos de estrada. B-Day Promo: nesse aniversário Bee U, o presente é seu! Cursos a partir de R$ 139,00 mensais e pacotes com 25% OFF."
+            width={1122}
+            height={1402}
             className="block h-auto w-full"
           />
           <Dialog.Close
